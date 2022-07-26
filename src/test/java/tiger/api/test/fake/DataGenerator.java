@@ -15,6 +15,8 @@ public class DataGenerator {
 				+ "@gmail.com";
 	}
 	
+	
+	//this is to generate fake phone number
 	public static String getPhoneNumber() {
 		Faker faker = new Faker(); 
 		return faker.phoneNumber().cellPhone();
